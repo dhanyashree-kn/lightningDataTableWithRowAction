@@ -67,7 +67,7 @@ export default class LightningDataTableWithRowAction extends NavigationMixin(Lig
                 break;
             case 'delete' :
                 this.showModal = true;
-                //this.handleDelete(row);
+                this.handleDelete(row);
                 console.log('delete');
         }
     }
